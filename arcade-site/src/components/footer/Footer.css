@@ -1,0 +1,27 @@
+.footer {
+  height: 15vh;
+  background-color: grey;
+  padding: 20px 0px;
+}
+
+.footer-content {
+  width: 88vw;
+  background-color: hotpink;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-content p {
+  margin: 0;
+  padding: 25px;
+}
+
+.media {
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.media li {
+  margin: 0px 12px;
+}
