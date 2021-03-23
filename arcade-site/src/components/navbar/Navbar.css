@@ -1,13 +1,20 @@
 .nav {
   width: 100%;
-  height: 10vh;
+  height: 80px;
+  background-color: transparent;
+  transition: all 0.4s ease;
+  /* margin-top: -80px; */
+}
+
+.nav.active {
+  background-color: #040404;
 }
 
 .nav-container {
   width: 88vw;
   margin: 0 auto;
   display: flex;
-  height: 10vh;
+  height: 80px;
   justify-content: space-between;
   align-items: center;
 }
@@ -18,10 +25,12 @@
 
 .links li {
   margin: 0 0 0 45px;
+  cursor: pointer;
 }
 
 .brand {
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .sticky {

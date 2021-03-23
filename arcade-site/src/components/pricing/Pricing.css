@@ -1,15 +1,19 @@
 .pricing {
   padding: 100px 0px;
-  background-color: green;
+  background-color: #d7d9ce;
 }
 
 .pricing-container {
   width: 88vw;
-  background-color: grey;
+  /* background-color: grey; */
   margin: 0 auto;
   display: flex;
 }
 
 .kidgaming-img {
   height: 450px;
+}
+
+.copy > * {
+  color: black;
 }

@@ -11,7 +11,7 @@ const Home = () => {
             <Navbar />
             <Hero />
             <Pricing />
-            <About />
+            <About name="myScrollToElement"/>
             <Footer />
         </div>
     )

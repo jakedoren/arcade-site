@@ -1,12 +1,12 @@
 .footer {
   height: 15vh;
-  background-color: grey;
+  background-color: #040404;
   padding: 20px 0px;
 }
 
 .footer-content {
   width: 88vw;
-  background-color: hotpink;
+  /* background-color: hotpink; */
   margin: 0 auto;
   text-align: center;
 }
@@ -24,4 +24,10 @@
 
 .media li {
   margin: 0px 12px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.media li:hover {
+  color: #0c7489;
 }

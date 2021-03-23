@@ -1,9 +1,11 @@
 import React from 'react'
 import './About.css'
 import kidgroup from '../../assets/kidgroup.jpg'
-const About = () => {
+const About = (props) => {
+
+    console.log(props.name)
     return (
-        <div className="about">
+        <div id="about" className="about">
             <div className="about-container">
                 <div className="flex1">
                     <div>

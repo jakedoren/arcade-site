@@ -4,10 +4,10 @@ import racing from '../../assets/racing.jpg'
 
 const Pricing = () => {
     return (
-        <div className="pricing">
+        <div className="pricing" id="pricing">
             <div className="pricing-container">
                 <div className="flex1">
-                    <div>
+                    <div className="copy">
                         <h1>Kids</h1>
                         <p> $20 Unlimited Games All day</p>
                         <h1>Adults</h1>

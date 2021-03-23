@@ -21,8 +21,8 @@ const Hero = () => {
             <div style={{
                 textAlign: "center"
             }}>
-                <h1>We're ArcadeLux</h1>
-                <p>Come visit us in downtown Orlando to experience all kinds of arace games from every era!</p>
+                <h1>ArcadeLux</h1>
+                <p>Come by and game with us</p>
             </div>
         </div>
     )
