@@ -1,6 +1,7 @@
 .pricing {
   padding: 100px 0px;
-  background-color: #d7d9ce;
+  /* background-color: #d7d9ce; */
+  background-color: #d8ddef;
 }
 
 .pricing-container {
@@ -16,4 +17,9 @@
 
 .copy > * {
   color: black;
+}
+
+.copy h1 {
+  /* color: #0cf574; */
+  color: #ff3434;
 }

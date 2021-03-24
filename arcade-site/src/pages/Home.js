@@ -4,6 +4,7 @@ import Hero from '../components/hero/Hero'
 import About from '../components/about/About'
 import Pricing from '../components/pricing/Pricing'
 import Footer from '../components/footer/Footer'
+import Testimonial from '../components/pricing/testimonial/Testimonial'
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Navbar />
             <Hero />
             <Pricing />
+            <Testimonial />
             <About name="myScrollToElement"/>
             <Footer />
         </div>

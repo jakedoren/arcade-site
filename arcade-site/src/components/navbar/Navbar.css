@@ -29,12 +29,21 @@
 }
 
 .brand {
-  font-size: 1.5rem;
+  font-size: 2rem;
   cursor: pointer;
+  /* font-family: "Press start 2p"; */
 }
 
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+.actives {
+  border-bottom: 3px solid #ffff00;
+}
+
+.nav-links {
+  padding: 28px 15px;
 }

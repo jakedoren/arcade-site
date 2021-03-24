@@ -29,5 +29,6 @@
 }
 
 .media li:hover {
-  color: #0c7489;
+  /* color: #0cf574; */
+  color: #ffff00;
 }
