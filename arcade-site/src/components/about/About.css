@@ -12,14 +12,13 @@
   align-items: center;
 }
 
-.flex1 {
+.flexa1 {
   flex: 1;
   display: flex;
   align-items: center;
-  /* background-color: cadetblue; */
 }
 
-.flex2 {
+.flexa2 {
   flex: 1;
   display: flex;
   align-items: center;
@@ -31,4 +30,8 @@
 
 .kid-img {
   height: 350px;
+}
+
+.racing-img {
+  width: 100%;
 }

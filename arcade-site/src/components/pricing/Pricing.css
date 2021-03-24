@@ -6,9 +6,9 @@
 
 .pricing-container {
   width: 88vw;
-  /* background-color: grey; */
   margin: 0 auto;
   display: flex;
+  align-items: center;
 }
 
 .kidgaming-img {
@@ -22,4 +22,22 @@
 .copy h1 {
   /* color: #0cf574; */
   color: #ff3434;
+}
+
+.flexp1 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: cadetblue; */
+}
+
+.flexp2 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* background-color: brown; */
+  justify-content: center;
+  /* object-fit: cover; */
 }

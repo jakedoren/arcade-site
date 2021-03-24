@@ -1,21 +1,17 @@
 import React from 'react'
 import './Pricing.css'
-import racing from '../../assets/racing.jpg'
+import Pricetables from './Pricetables'
 
 const Pricing = () => {
     return (
         <div className="pricing" id="pricing">
+           
             <div className="pricing-container">
-                <div className="flex1">
-                    <div className="copy">
-                        <h1>Kids</h1>
-                        <p> $20 Unlimited Games All day</p>
-                        <h1>Adults</h1>
-                        <p>$25 Unimited games All day</p>
-                    </div>
+                <div className="flexp1">
+                    <Pricetables title="Kids" sec1="$20 entry unlimited games all day" sec2="+$5 full access to all day buffet" sec3="Kids only" sec4="Kids club 13 and under" sec5=" " />
                 </div>
-                <div className="flex2">
-                    <img src={racing} alt="our arcade" className="kidgaming-img"/>
+                <div className="flexp2">
+                    <Pricetables title="Adults" sec1="$29 entry unlimited games all day" sec2="+$5 full access to all day buffet" sec3="Adults only" sec4=" 21+ Drinks starting 6pm" sec5=""/>
                 </div>
             </div>
         </div>

@@ -1,0 +1,28 @@
+.copy-contain {
+  width: 400px;
+  height: 500px;
+  background-color: #c6d2ed;
+  border: 3px solid black;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.copypr {
+  text-align: center;
+  background-color: #040404;
+  /* border: 3px solid black; */
+  width: 80%;
+  margin-top: -25px;
+  margin: -25px auto;
+}
+
+.list-div {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.copypr h1 {
+  color: #ff3434;
+  /* padding: 0; */
+  /* margin: 0; */
+}
