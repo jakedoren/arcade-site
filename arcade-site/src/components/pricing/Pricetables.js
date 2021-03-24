@@ -5,7 +5,7 @@ import './Pricetables.css'
 const Pricetables = (props) => {
     return (
         <div>
-            <div className="copy-contain">
+            <div className="copy-contain" id="pic">
                 <div className="copypr">
                     <h1>{props.title}</h1>
                 </div>
