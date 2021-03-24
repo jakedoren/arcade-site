@@ -5,7 +5,7 @@ import {css, cx} from '@emotion/css'
 const Quote = () => {
     const quotes = {
         0: {
-            client: "Meagan Yannacone",
+            client: "Meagan Yannaccone",
             quote: "Amazing arcade. My favorite spot in orlando to hangout on the weekends"
         },
         1: {
