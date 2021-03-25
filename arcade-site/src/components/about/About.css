@@ -1,7 +1,6 @@
 .about {
   /* background-color: #0cf574; */
   background-color: #d8ddef;
-
   padding: 100px 0px;
 }
 
@@ -9,7 +8,6 @@
   width: 88vw;
   margin: 0 auto;
   display: flex;
-  /* align-items: center; */
 }
 
 .flexa1 {
